@@ -355,6 +355,7 @@ export interface VoteWhereInput {
 
 export type UserWhereUniqueInput = AtLeastOne<{
   id: Maybe<ID_Input>;
+  email?: Maybe<String>;
 }>;
 
 export type VoteWhereUniqueInput = AtLeastOne<{
